@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1638822182635550460}
   - component: {fileID: 1638822182635550463}
   - component: {fileID: 6518073791958241531}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -223,7 +223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1638822184078997024}
   - component: {fileID: 3967691526903564113}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platform B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -269,7 +269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8833973905496947154}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Final Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
