@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpawnPlatform : MonoBehaviour
 {
 
-    public List<GameObject> platforms = new List<GameObject>();
+    public List<GameObject> platforms = new List<GameObject>(); // Prefabs Plataforms
     
     public float distance;
     public float offset;
@@ -14,7 +14,7 @@ public class SpawnPlatform : MonoBehaviour
     Transform currentPlaformPoint;
     int platformIndex;
 
-    List<Transform> currentPlatforms = new List<Transform>();
+    List<Transform> currentPlatforms = new List<Transform>(); // Platforms in Game
 
     void Start()
     {
