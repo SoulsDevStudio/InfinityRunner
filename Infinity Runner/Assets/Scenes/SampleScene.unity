@@ -424,6 +424,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemiesList:
   - {fileID: 2097291207493027949, guid: b28d0ef40067b7b489f3918b1e7830b3, type: 3}
+  - {fileID: 2097291207493027949, guid: d85b487aac28c6b4a94efa8b3bd4180b, type: 3}
+  - {fileID: 2097291207493027949, guid: a1bc82f35f334164198b5914f6ac0ee9, type: 3}
   timeCount: 0
   spawnTimer: 2
 --- !u!1 &2112098479
