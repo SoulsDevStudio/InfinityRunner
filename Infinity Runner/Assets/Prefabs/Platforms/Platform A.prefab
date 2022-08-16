@@ -159,6 +159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalPoint: {fileID: 4572954487324194374}
+  spawnObj: {fileID: 4314426584258603803}
 --- !u!1 &4744475017989058740
 GameObject:
   m_ObjectHideFlags: 0
