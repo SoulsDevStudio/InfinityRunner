@@ -545,7 +545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 827444538}
-  speed: 3
+  speed: 4
   jumpForce: 10.5
   bulletPrefab: {fileID: 919323036399520903, guid: b9a836812c2915143b135eec31ab2fdb, type: 3}
   firePoint: {fileID: 1805647049}

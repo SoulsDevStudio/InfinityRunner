@@ -7,6 +7,7 @@ public class ProjectilePlayer : MonoBehaviour
     Rigidbody2D rig;
 
     public float speed;
+    public int damage;
 
     void Start()
     {

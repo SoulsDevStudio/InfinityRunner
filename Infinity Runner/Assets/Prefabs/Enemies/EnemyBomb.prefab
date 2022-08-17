@@ -146,6 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f83cf22ea09ae5d45804e65ec7516860, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 10
   bomb: {fileID: 4140010881857931429, guid: bfa8a9038a04d9f48bd9e042a8394b1f, type: 3}
   pointFire: {fileID: 1394404119565442080}
   throwCount: 2

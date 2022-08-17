@@ -14,7 +14,7 @@ public class Bomb : MonoBehaviour
         rig = GetComponent<Rigidbody2D>();
         rig.AddForce(new Vector2(x, y),ForceMode2D.Impulse);
 
-        Destroy(gameObject, 5f);
+        Destroy(gameObject, 3f);
     }
 
 }

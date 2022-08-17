@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyBomb : MonoBehaviour
+public class EnemyBomb : Enemy
 {
     public GameObject bomb;
     public Transform pointFire;

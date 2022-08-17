@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FlyEnemy : MonoBehaviour
+public class FlyEnemy : Enemy
 {
 
     Rigidbody2D rig;
@@ -11,7 +11,7 @@ public class FlyEnemy : MonoBehaviour
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
-        Destroy(gameObject, 5f);
+        Destroy(gameObject, 3f);
     }
 
     void FixedUpdate()
