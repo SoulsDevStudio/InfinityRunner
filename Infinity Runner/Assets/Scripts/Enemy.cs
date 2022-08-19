@@ -22,6 +22,7 @@ public class Enemy : MonoBehaviour
         {
 
             int dmg = collision.GetComponent<ProjectilePlayer>().damage;
+            collision.GetComponent<ProjectilePlayer>().OnHit();
             ApplyDamage(dmg);
         }
     }
