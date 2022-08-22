@@ -1812,6 +1812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 941de162c56a510409e3afa29ec0e5ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 2
   anim: {fileID: 827444538}
   speed: 4
   jumpForce: 10.5

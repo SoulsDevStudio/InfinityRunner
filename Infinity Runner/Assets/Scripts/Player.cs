@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public float health;
+
     Rigidbody2D rig;
     bool isJumping;
 
@@ -47,6 +49,16 @@ public class Player : MonoBehaviour
         {
             isJumping = true;
             anim.SetBool("isJumping", false);
+        }
+    }
+
+    public void HealhDamage(float dmg)
+    {
+        health -= dmg;
+
+        if(health <= 0)
+        {
+            GameController.instance.ShowGameOver();
         }
     }
 

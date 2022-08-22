@@ -13,7 +13,6 @@ public class EnemyBomb : Enemy
 
     void Start()
     {
-        
     }
 
     void Update()
@@ -26,4 +25,6 @@ public class EnemyBomb : Enemy
             throwTimer = 0;
         }
     }
+
+    
 }
