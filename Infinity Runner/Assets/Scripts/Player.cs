@@ -44,8 +44,12 @@ public class Player : MonoBehaviour
 
     public void Jump()
     {
-        rig.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-        anim.SetBool("isJumping", true);
+        if (isJumping)
+        {
+            rig.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            anim.SetBool("isJumping", true);
+        }
+        
     }
 
     void FixedUpdate()
