@@ -4,8 +4,15 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    Player player;
+
     public int health;
     public float damage;
+
+    void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+    }
 
     public virtual void ApplyDamage(int damage)
     {
@@ -25,6 +32,11 @@ public class Enemy : MonoBehaviour
             int dmg = collision.GetComponent<ProjectilePlayer>().damage;
             collision.GetComponent<ProjectilePlayer>().OnHit();
             ApplyDamage(dmg);
+        }
+
+        if (collision.CompareTag("Player"))
+        {
+            player.HealhDamage(damage);
         }
     }
 }

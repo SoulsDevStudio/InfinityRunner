@@ -9,10 +9,24 @@ public class GameController : MonoBehaviour
 
     public static GameController instance;
 
+    Player player;
+
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+
         Time.timeScale = 1;
         instance = this;
+    }
+
+    public void PlayerShooter()
+    {
+        player.Shooter();
+    }
+
+    public void PlayerJumping()
+    {
+        player.Jump();
     }
 
     public void ShowGameOver()

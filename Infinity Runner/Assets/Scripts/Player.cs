@@ -28,14 +28,24 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && isJumping)
         {
-            rig.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-            anim.SetBool("isJumping", true);
+            Shooter();
         }
 
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            Jump();
         }
+    }
+
+    public void Shooter()
+    {
+        Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+    }
+
+    public void Jump()
+    {
+        rig.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        anim.SetBool("isJumping", true);
     }
 
     void FixedUpdate()
