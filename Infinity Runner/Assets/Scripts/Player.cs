@@ -28,12 +28,12 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && isJumping)
         {
-            Shooter();
+            Jump();
         }
 
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            Jump();
+            Shooter();
         }
     }
 
