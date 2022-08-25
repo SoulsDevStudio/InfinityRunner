@@ -12,7 +12,7 @@ Projeto desenvolvido durante o 8º módulo do Curso de Desenvolvimento Unity da 
 - Interface
 
 
-## Inimigos
+## ScreenShots
 
 ![Jogo Print 2](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
