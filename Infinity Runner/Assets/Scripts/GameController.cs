@@ -2,14 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
+
+    public Text timerText;
     public GameObject gameOverPanel;
 
     public static GameController instance;
 
     Player player;
+    float timerCount;
+    int timerInt;
 
     void Start()
     {
@@ -17,6 +22,28 @@ public class GameController : MonoBehaviour
 
         Time.timeScale = 1;
         instance = this;
+    }
+
+    void Update()
+    {
+        timerCount += Time.deltaTime;
+        timerInt = Mathf.RoundToInt(timerCount);
+        if(timerCount <= 9)
+        {
+            timerText.text = "000" + timerInt.ToString();
+        }
+        else if (timerCount <= 99)
+        {
+            timerText.text = "00" + timerInt.ToString();
+        }
+        else if (timerCount <= 999)
+        {
+            timerText.text = "0" + timerInt.ToString();
+        }
+        else
+        {
+            timerText.text = timerInt.ToString();
+        }
     }
 
     public void PlayerShooter()
