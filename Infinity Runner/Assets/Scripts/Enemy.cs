@@ -36,7 +36,7 @@ public class Enemy : MonoBehaviour
 
         if (collision.CompareTag("Player"))
         {
-            player.HealhDamage(damage);
+            player.HealhDamage(1);
         }
     }
 }
