@@ -34,7 +34,7 @@ public class FlyEnemy : Enemy
 
         if (collision.CompareTag("Player"))
         {
-            player.HealhDamage(1);
+            player.HealhDamage(damage);
         }
     }
 }

@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour
 {
 
     public Text timerText;
+    public Text healthText;
     public GameObject gameOverPanel;
 
     public static GameController instance;
@@ -44,6 +45,8 @@ public class GameController : MonoBehaviour
         {
             timerText.text = timerInt.ToString();
         }
+
+        healthText.text = "x" + player.health.ToString();
     }
 
     public void PlayerShooter()
