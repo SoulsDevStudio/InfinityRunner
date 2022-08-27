@@ -14,9 +14,9 @@ Projeto desenvolvido durante o 8º módulo do Curso de Desenvolvimento Unity da 
 
 ## ScreenShots
 
-![Jogo Print 2](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Start Menu](/Imagens%20Game/Start_Menu.png)
 
-![Jogo Print 2](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Gameplay](/Imagens%20Game/Gameplay.png))
 
 
 
