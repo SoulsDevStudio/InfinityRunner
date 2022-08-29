@@ -11,26 +11,30 @@ Projeto desenvolvido durante o 8º módulo do Curso de Desenvolvimento Unity da 
 - Colisões
 - Interface
 
-
-## ScreenShots
-
-![Start Menu](/Imagens%20Game/Start_Menu.png)
-
-![Gameplay](/Imagens%20Game/Gameplay.png))
-
-
-
-## Instalação
-
-Para a instalação do jogo será nescessario o uso de um celular e entrar no site [itchi io]() 
-    
-## Autores
-
-- [@Soulsdev](https://github.com/SoulsDevStudio)
-
-
 ## Funcionalidades
 
 - Atirar
 - Pular
 
+
+## ScreenShots
+
+![Start Menu](/Imagens%20Game/Start_Menu.png)
+
+![Gameplay](/Imagens%20Game/Gameplay.png)
+
+![GameOver](/Imagens%20Game/GameOver.png)
+
+## Gameplay
+![Start Game](/Imagens%20Game/StartGame.gif)
+
+![Start Game](/Imagens%20Game/GameOver.gif)
+
+
+## Instalação
+
+Para a instalação do jogo será nescessario o uso de um celular e entrar no site [itchi io](https://soulsdev.itch.io/) 
+    
+## Autor
+
+- [@Soulsdev](https://github.com/SoulsDevStudio)
