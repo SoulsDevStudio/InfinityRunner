@@ -1,7 +1,7 @@
 
 # Infinity Runner
 
-Projeto desenvolvido durante o 8º módulo do Curso de Desenvolvimento Unity da CSJ Academy. Infinity Runner é um jogo onde o jogador a cada jogada tentara ir mas longe do que a ultima vez. 
+Projeto desenvolvido durante o 8º módulo do Curso de Desenvolvimento Unity da CSJ Academy. Infinity Runner é um jogo onde o jogador a cada jogada tentara ir, mas longe do que a última vez.
 
 
 ## Aprendizados
@@ -31,9 +31,9 @@ Projeto desenvolvido durante o 8º módulo do Curso de Desenvolvimento Unity da 
 ![Start Game](/Imagens%20Game/GameOver.gif)
 
 
-## Instalação
+## Instalação   
 
-Para a instalação do jogo será nescessario o uso de um celular e entrar no site [itchi io](https://soulsdev.itch.io/infinity-runner) 
+Para a instalação do jogo será necessário o uso de um celular e entrar no site[itchi io](https://soulsdev.itch.io/infinity-runner) 
     
 ## Autor
 
