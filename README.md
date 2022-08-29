@@ -33,7 +33,7 @@ Projeto desenvolvido durante o 8º módulo do Curso de Desenvolvimento Unity da 
 
 ## Instalação
 
-Para a instalação do jogo será nescessario o uso de um celular e entrar no site [itchi io](https://soulsdev.itch.io/) 
+Para a instalação do jogo será nescessario o uso de um celular e entrar no site [itchi io](https://soulsdev.itch.io/infinity-runner) 
     
 ## Autor
 
