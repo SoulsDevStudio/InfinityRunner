@@ -28,7 +28,7 @@ Projeto desenvolvido durante o 8º módulo do Curso de Desenvolvimento Unity da 
 ## Gameplay
 ![Start Game](/Imagens%20Game/StartGame.gif)
 
-![Start Game](/Imagens%20Game/GameOver.gif)
+![Game Over](/Imagens%20Game/GameOver.gif)
 
 
 ## Instalação   
